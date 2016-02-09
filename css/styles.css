@@ -3,3 +3,45 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+body{
+  font-family: "Times New Roman";
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+thead {
+  background-color: #038AA7;
+  color: white;
+  line-height: 2.0em;
+}
+
+th {
+  /*padding-right: 15px;*/
+  padding: 0 15px 0 15px;
+}
+
+th:nth-child(1) {
+  width: 15em;
+}
+tbody{
+  border: 1.5px solid #038AA7;
+}
+tbody tr {
+  border: 1.5px solid #038AA7;
+}
+tbody tr:nth-child(even) {
+  background: #eee;
+}
+tfoot{
+  display: table-footer-group;
+  vertical-align: baseline;
+  border-color: none;
+}
+
+tfoot tr th {
+  text-align: left;
+  font-weight: normal;
+}
